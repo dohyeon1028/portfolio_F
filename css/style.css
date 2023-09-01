@@ -265,12 +265,17 @@ header .util li a:first-child {
   font-size: 50px;
 }
 
+#full_banner {
+  width: 100%;
+  overflow: hidden;
+}
 #full_banner section {
   width: 1440px;
   height: 90vh;
   margin: 0 auto;
   position: relative;
   transition: 0.5s;
+  overflow: hidden;
 }
 #full_banner section .imgBox {
   width: 100%;
