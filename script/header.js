@@ -6,7 +6,11 @@ window.addEventListener("scroll", ()=>{
     console.log(scroll);
     if(scroll < 10){
         header.classList.remove("on"); 
-        headerBox.style.height = "150px";
+        for(let i = 1 ; i <= 10 ; i ++){
+            headerBox.style.height = `${75 + i * 7.5}px`;
+        }
+
+            
         
         header.style.height = "150px";
     } 
